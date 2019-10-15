@@ -18,9 +18,14 @@
 		/* Aunque para mí el lenguaje de php no es ajeno siempre se me olvidan las etiquetas para abrir y cerrar php. (<?php ?>) */
 		print("Hola mundo <br>");
 	
+		//VARIABLES
+		/*Una variable es una pequeña caja que guarda una información, pueden ser strins o enteros(valores numéricos)*/
+	
 		$welcome = "Hola mundo... <br>"; //Esta es la primera variable hecha en este archivo.
 		echo $welcome;
-	
+		
+		
+		//FUNCIONES
 	
 		function suma($a=3, $b=5){
 			$suma= $a+$b;
