@@ -21,7 +21,7 @@
 		//VARIABLES
 		/*Una variable es una pequeña caja que guarda una información, pueden ser strins o enteros(valores numéricos)*/
 
-		$welcome = "Hola mundo... <br>"; //Esta es la primera variable hecha en este archivo.
+		$welcome = "Hola mundo... <br>"; //Esta es la primera variable hecha en este archivo $welcome.
 		echo $welcome; // Este echo imprime la variable $welcome en pantalla.
 
 
