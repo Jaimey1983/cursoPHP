@@ -16,14 +16,32 @@
 		echo "Hola mundo, este es mi primer hola mundo con ED TEAM"."\n"."hola jaime </p>";
 		// Con el punto se unen varias cadenas de strings.
 		/* Aunque para mí el lenguaje de php no es ajeno siempre se me olvidan las etiquetas para abrir y cerrar php. (<?php ?>) */
-		print("Hola mundo");
+		print("Hola mundo <br>");
 	
-		$welcome = "Hola mundo"; //Esta es la primera variable hecha en este archivo.
+		$welcome = "Hola mundo... <br>"; //Esta es la primera variable hecha en este archivo.
+		echo $welcome;
+	
+	
 		function suma($a=3, $b=5){
 			$suma= $a+$b;
 			return $suma;
 		}
 		echo suma();
+	
+		echo "<br>";
+	
+		function Suma2($c=24, $d=35){
+			if($c+$d<=48){
+				echo "verdadero";
+			}
+			elseif($c+$d=59){
+				echo "Completamente verdadero";
+			}
+			else {
+				echo "falso";
+			}
+		}
+		echo Suma2();
 	
 	?>
 	
