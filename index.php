@@ -19,6 +19,11 @@
 		print("Hola mundo");
 	
 		$welcome = "Hola mundo"; //Esta es la primera variable hecha en este archivo.
+		function suma($a=3, $b=5){
+			$suma= $a+$b;
+			return $suma;
+		}
+		echo suma();
 	
 	?>
 	
